@@ -1,13 +1,73 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg-gradient {
+  background: url('./assets/background-1603379959.jpg');
+  background-size: cover;
+}
+
+::selection {
+  background-color: #ec5165;
+  color: white;
+}
+
+::moz-selection {
+  background-color: #ec5165;
+  color: white;
+}
+
+::webkit-selection {
+  background-color: #ec5165;
+  color: white;
+}
+
+body a, a:hover, a:focus, a.page-link, .btn-outline-primary {
+  color: #ec5165;
+}
+
+.text-primary {
+  color: #ec5165!important;
+}
+
+a.text-primary.btnBookmark:hover, a.text-primary.btnBookmark:focus {
+  color: #ec5165!important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary, .btn-primary.disabled, .btn-primary:disabled, .custom-checkbox .custom-control-input:checked~.custom-control-label::before, .page-item.active .page-link, .page-link:hover, .owl-theme .owl-dots .owl-dot span, .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #ec5165;
+  border-color: #ec5165;
+}
+
+.bg-primary, .dropdown-item:focus, .dropdown-item:hover, .dropdown-item.active, .dropdown-item:active, .tooltip-inner {
+  background-color: #ec5165!important;
+}
+
+.custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before, .custom-control-input:focus:not(:checked)~.custom-control-label::before, .btn-outline-primary {
+  border-color: #ec5165;
+}
+
+.custom-control-input:not(:disabled):active~.custom-control-label::before, .custom-control-input:checked~.custom-control-label::before, .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:not(:disabled):not(.disabled):active, .list-group-item.active {
+  color: #fff;
+  background-color: #ec5165!important;
+  border-color: #ec5165!important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ec5165!important;
+  border-color: #ec5165!important;
+}
+
+.bs-tooltip-bottom .arrow::before {
+  border-bottom-color: #ec5165!important;
+}
+
+.arrow::before {
+  border-top-color: #ec5165!important;
+}
+
+.nav-profile li.active {
+  border-bottom: 3px solid #ec5165!important;
 }
