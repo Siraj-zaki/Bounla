@@ -21,7 +21,7 @@ export default class SignUp extends React.Component {
     render() {
         return (
             <div>
-                <Header Creators />
+                <Header Creators notuser />
                 <div class="jumbotron home m-0 bg-gradient">
                     <div class="container pt-lg-md">
                         <div class="row new-flex">

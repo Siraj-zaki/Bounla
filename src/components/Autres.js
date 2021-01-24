@@ -16,7 +16,7 @@ export default class Autres extends React.Component {
     render() {
         return (
             <div>
-                <Header Creators />
+                <Header Creators notuser />
                 <section class="section section-sm">
                     <div class="container">
                         <div class="row justify-content-center text-center mb-sm">

@@ -10,7 +10,7 @@ import img1 from '../assets/img1.png'
 import img2 from '../assets/img2.png'
 import img3 from '../assets/img3.png'
 import img4 from '../assets/img4.png'
-import img5 from '../assets/img5.jpg';
+import Card3 from './Card3'
 import Header from './Header';
 import Footer from './Footer';
 class Home extends React.Component {
@@ -19,7 +19,7 @@ class Home extends React.Component {
         return (
 
             <div className="home">
-                <Header />
+                <Header notuser />
                 <div className="jumbotron homepage m-0 bg-gradient">
                     <div className="container">
                         <div className="row">
@@ -27,9 +27,9 @@ class Home extends React.Component {
                                 <h1 className="display-4 pt-5 mb-3 text-white">Earn profits with your content</h1>
                                 <p className="text-white">Bounla is designed to help content creators on the web, create a free account and start making money now.</p>
                                 <p>
-                                    <a href="https://bounla.com/creators" className="btn btn-lg btn-primary btn-w-mb px-4 mr-2" role="button">Explore</a>
+                                    <a href="./Creators" className="btn btn-lg btn-primary btn-w-mb px-4 mr-2" role="button">Explore</a>
 
-                                    <a href="https://bounla.com/signup" className="btn btn-lg btn-main btn-outline-light btn-w px-4">
+                                    <a href="./SignUp" className="btn btn-lg btn-main btn-outline-light btn-w px-4">
                                         Getting started <small className="pl-1"><i className="fa fa-long-arrow-alt-right"></i></small></a>
                                 </p>
                             </div>
@@ -87,7 +87,7 @@ class Home extends React.Component {
                                 <div className="col-lg-9 col-xl-8 p-0">
                                     <p className="py-4 m-0 text-muted">Easy as A, B, C... In a few steps your profile will be set up and ready to roll</p>
                                 </div>
-                                <a href="https://bounla.com/signup" className="btn btn-lg btn-main btn-outline-primary btn-w px-4">
+                                <a href="./SignUp" className="btn btn-lg btn-main btn-outline-primary btn-w px-4">
                                     Getting started <small className="pl-1"><i className="fa fa-long-arrow-alt-right"></i></small></a>
                             </div>
                         </div>
@@ -105,45 +105,24 @@ class Home extends React.Component {
                         <div className="row">
 
                             <div className="w-100 mb-3 text-center">
-                                <a href="https://bounla.com/creators" className="float-right link-border">View all creators <small className="pl-1"><i className="fa fa-long-arrow-alt-right"></i></small></a>
+                                <a href="./Creators" className="float-right link-border">View all creators <small className="pl-1"><i className="fa fa-long-arrow-alt-right"></i></small></a>
                             </div>
 
                             <div className="owl-carousel owl-theme owl-loaded owl-drag">
 
                                 <div className="owl-stage-outer">
-                                    <div className="owl-stage" style={{ transition: "all 0s ease 0s", width: "384px" }}><div className="owl-item active" style={{ width: "373.333px", marginRight: "10px" }}><div className="card card-updates">
-                                        <div className="card-cover" style={{ background: "#505050 center center" }}></div>
-                                        <div className="card-avatar">
-                                            <a href="https://bounla.com/Admin">
-                                                <img src={img5} width="89" height="89" alt="Admin" className="img-user-small"></img>
-                                            </a>
-                                        </div>
-                                        <div className="card-body text-center">
-                                            <h6 className="card-title pt-3">
-                                                Admin
-
-								<small className="text-featured mr-1" title="" data-toggle="tooltip" data-placement="top" data-original-title="Creator featured">
-                                                    <i className="fas fa fa-award"></i>
-                                                </small>
-
-                                                <small className="verified" title="" data-toggle="tooltip" data-placement="top" data-original-title="Verified account!">
-                                                    <i className="fas fa-check-circle"></i>
-                                                </small>
-                                            </h6>
-                                            <small className="text-muted">
-                                                <i className="fa fa-map-marker-alt mr-1"></i>	United States
-
-							</small>
-                                            <p className="m-0 py-3 text-muted">
-                                                Welcome to my page. If you like my content, please consider support. Any donation will be well recei...
-			</p>
-                                            <a href="https://bounla.com/Admin" className="btn btn-1 btn-sm btn-outline-primary">Go to Page</a>
+                                    <div className="owl-stage" style={{ transition: "all 0s ease 0s", width: "384px" }}>
+                                        <div className="owl-item active" style={{ width: "373.333px", marginRight: "10px" }}>
+                                            <div className="card card-updates">
+                                                <Card3 />
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
-                                    </div>
+
                                 </div>
-                                <div className="owl-nav disabled"><button type="button" role="presentation" className="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" className="owl-next"><span aria-label="Next">›</span></button></div><div className="owl-dots disabled"><button role="button" className="owl-dot active"><span></span></button></div></div>
+                                <div className="owl-nav disabled"><button type="button" role="presentation" className="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" className="owl-next"><span aria-label="Next">›</span></button></div><div className="owl-dots disabled"><button role="button" className="owl-dot active"><span></span></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

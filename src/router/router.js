@@ -20,7 +20,21 @@ import Podcast from "../components/Podcast";
 import Video from "../components/Video";
 import Writing from "../components/Writing"
 import UserPage from "../components/UserPage"
+import EditMyPage from "../components/EditMyPage"
 import ShowUser from "../components/ShowUser"
+import Dashboard from "../components/Dashboard"
+import Subscription from "../components/Subscription"
+import Wallet from "../components/Wallet"
+import VerifyAccount from "../components/VerifyAccount"
+import Notification from "../components/Notification"
+import Password from "../components/Password"
+import NewSubscribers from "../components/NewSubscribers"
+import MySubscriptions from "../components/MySubscriptions"
+import Payments from "../components/Payments"
+import PaymentsReceived from "../components/PaymentsReceived"
+import PaymentMethod from "../components/PaymentMethod"
+import Withdrawals from "../components/Withdrawals"
+
 class ReactRouter extends React.Component {
   render() {
     return (
@@ -32,6 +46,7 @@ class ReactRouter extends React.Component {
         <Route exact path="/SignUp" component={SignUp} />
         <Route exact path="/TermsOfService" component={TermsOfService} />
         <Route exact path="/Privacy" component={Privacy} />
+        <Route exact path="/Payments" component={Payments} />
         <Route exact path="/Amateurs" component={Amateurs} />
         <Route exact path="/Amatrices" component={Amatrices} />
         <Route exact path="/Animation" component={Animation} />
@@ -47,6 +62,18 @@ class ReactRouter extends React.Component {
         <Route exact path="/Writing" component={Writing} />
         <Route exact path="/UserPage" component={UserPage} />
         <Route exact path="/ShowUser" component={ShowUser} />
+        <Route exact path="/NewSubscribers" component={NewSubscribers} />
+        <Route exact path="/EditMyPage" component={EditMyPage} />
+        <Route exact path="/Dashboard" component={Dashboard} />
+        <Route exact path="/Subscription" component={Subscription} />
+        <Route exact path="/Wallet" component={Wallet} />
+        <Route exact path="/VerifyAccount" component={VerifyAccount} />
+        <Route exact path="/Notification" component={Notification} />
+        <Route exact path="/Password" component={Password} />
+        <Route exact path="/MySubscriptions" component={MySubscriptions} />
+        <Route exact path="/PaymentsReceived" component={PaymentsReceived} />
+        <Route exact path="/PaymentMethod" component={PaymentMethod} />
+        <Route exact path="/Withdrawals" component={Withdrawals} />
       </React.Fragment>
     );
   }

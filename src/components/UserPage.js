@@ -12,7 +12,10 @@ export default class UserPage extends React.Component {
   render() {
     return (
       <div>
-        <Header Creators />
+        <Header 
+        Creators
+        login
+         />
         <div class="wrap-full-image">
           <div class="container-image"></div>
           <div class="btn-block details-full-image">

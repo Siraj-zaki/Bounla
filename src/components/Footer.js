@@ -21,8 +21,8 @@ export default class Footer extends React.Component {
                             <div class="col-md-3">
                                 <h5>About</h5>
                                 <ul class="list-unstyled">
-                                    <li><a class="link-footer" href="https://bounla.com/p/terms-of-service">Terms of Service</a></li>
-                                    <li><a class="link-footer" href="https://bounla.com/p/privacy">Privacy</a></li>
+                                    <li><a class="link-footer" href="./TermsOfService">Terms of Service</a></li>
+                                    <li><a class="link-footer" href="./Privacy">Privacy</a></li>
                                     <li><a class="link-footer" href="https://bounla.com/p/about">About us</a></li>
                                     <li><a class="link-footer" href="https://bounla.com/p/how-it-works">How it works</a></li>
                                     <li><a class="link-footer" href="https://bounla.com/p/cookies">Cookies Policy</a></li>
@@ -36,14 +36,14 @@ export default class Footer extends React.Component {
                             <div class="col-md-3">
                                 <h5>Categories</h5>
                                 <ul class="list-unstyled">
-                                    <li><a class="link-footer" href="https://bounla.com/category/amateurs">Amateurs</a></li>
-                                    <li><a class="link-footer" href="https://bounla.com/category/amatrices">Amatrices</a></li>
-                                    <li><a class="link-footer" href="https://bounla.com/category/animation">Animation</a></li>
-                                    <li><a class="link-footer" href="https://bounla.com/category/artist">Artist</a></li>
-                                    <li><a class="link-footer" href="https://bounla.com/category/others">Autres</a></li>
-                                    <li><a class="link-footer" href="https://bounla.com/category/designer">Designer</a></li>
+                                    <li><a class="link-footer" href="./Amateurs">Amateurs</a></li>
+                                    <li><a class="link-footer" href="./Amatrices">Amatrices</a></li>
+                                    <li><a class="link-footer" href="./Animation">Animation</a></li>
+                                    <li><a class="link-footer" href="./Artist">Artist</a></li>
+                                    <li><a class="link-footer" href="./Autres">Autres</a></li>
+                                    <li><a class="link-footer" href="./Designer">Designer</a></li>
 
-                                    <li><a class="link-footer" href="https://bounla.com/creators">Explore <i
+                                    <li><a class="link-footer" href="./Creators">Explore <i
                                         class="fa fa-long-arrow-alt-right"></i></a></li>
                                 </ul>
                             </div>
